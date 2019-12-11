@@ -1,0 +1,18 @@
+Changelog
+    Version1
+            basic style
+            can calculate with the result
+            
+            not working properly
+                display overflow
+                result being (-) and calculating with it doesnt work
+
+    Version2
+            added v1 info
+            added ce, decimal and keyboard support
+            changed the style a bit and added effects
+            removed more than one operator input one after another
+            results with decimals are fixed to 3
+            result with e+ on big numbers
+            wrong format if calculating with last input as an operator or just a number without                 any operations
+            fixed v1 problems

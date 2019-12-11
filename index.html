@@ -14,33 +14,36 @@
             <p class="display-top"></p>
             <p class="display-bottom"></p>         
         </div>
-        <button type="button" class="clear" id="clear" title="All Clear"> AC </button>
-        <button type="button" class="operators" id="divide"> / </button>
-        <button type="button" class="operators" id="multiply"> X </button>
+        <button type="button" class="clear" id="clear" title="All Clear" data-key="32"> AC </button>
+        <button type="button" class="remove" id="remove" title="Clear Entry" data-key="8"> CE </button>
+        <button type="button" class="operators" id="divide" data-key="68"> / </button>
+        <button type="button" class="operators" id="multiply" data-key="88"> X </button>
 
-        <button type="button" class="operators" id="subtract"> - </button>
+        <button type="button" class="operators" id="subtract" data-key="83"> - </button>
         <div class="cal-numbers">
-                <button type="button" class="numbers" id="seven"> 7 </button> 
-                <button type="button" class="numbers" id="eight"> 8 </button>
-                <button type="button" class="numbers" id="nine"> 9 </button>  
+                <button type="button" class="numbers" id="seven" data-key="55"> 7 </button> 
+                <button type="button" class="numbers" id="eight" data-key="56"> 8 </button>
+                <button type="button" class="numbers" id="nine" data-key="57"> 9 </button>  
 
-                <button type="button" class="numbers" id="four"> 4 </button>
-                <button type="button" class="numbers" id="five"> 5 </button>
-                <button type="button" class="numbers" id="six"> 6 </button>
+                <button type="button" class="numbers" id="four" data-key="52"> 4 </button>
+                <button type="button" class="numbers" id="five" data-key="53"> 5 </button>
+                <button type="button" class="numbers" id="six" data-key="54"> 6 </button>
 
-                <button type="button" class="numbers" id="one"> 1 </button>
-                <button type="button" class="numbers" id="two"> 2 </button>
-                <button type="button" class="numbers" id="three"> 3 </button>
+                <button type="button" class="numbers" id="one" data-key="49"> 1 </button>
+                <button type="button" class="numbers" id="two" data-key="50"> 2 </button>
+                <button type="button" class="numbers" id="three" data-key="51"> 3 </button>
         </div>
-        <button type="button" class="operators" id="add"> + </button>
+        <button type="button" class="operators" id="add" data-key="65"> + </button>
         
-        <button type="button" class="numbers" id="zero"> 0 </button>
-        <button type="button" class="operate" id="calculate"> = </button>
+        <button type="button" class="numbers" id="zero" data-key="48"> 0 </button>
+        <button type="button" class="decimal" id="decimal" data-key="190"> . </button>
+        <button type="button" class="operate" id="calculate" data-key="13"> = </button>
     </div>
 
 
 
 <script src="main.js"></script>
+<script src="keyboardsupport.js"></script>
 </body>
 
 
