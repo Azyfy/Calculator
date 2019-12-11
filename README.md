@@ -4,16 +4,24 @@ Calculator for basic math operations.
 On mouse click or with keyboard.
  
 Keyboard:
-operation   -   key
-+           -   a           (add)
--           -   s           (subtract)   
-*           -   x           (multiply)
-/           -   d           (divide)
 
-ac          -   space       (all clear)
-ce          -   backspace   (clear entry)
-.           -   .           (decimal)
-=           -   enter       (calculate)
+operation   -   key
+
+add         -   a          
+
+subtract    -   s           
+
+multiply    -   x
+
+divide      -   d           
+
+ac(all clear)          -   space       
+
+ce(clear entry)          -   backspace
+
+.(dot)           -   .           
+
+=           -   enter       
 
 numbers     -   0-9
 
