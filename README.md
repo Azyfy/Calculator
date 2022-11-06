@@ -3,7 +3,7 @@
 Calculator for basic math operations.  
 On mouse click or with keyboard.  
 
-[Link](https://azzryel.github.io/Calculator)
+[Link](https://azyfy.github.io/Calculator)
  
 ###### Keyboard:
 
